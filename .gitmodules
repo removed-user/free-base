@@ -1,0 +1,7 @@
+[submodule "ubase"]
+path = ubase
+url = git://git.suckless.org/ubase
+
+[submodule "sbase"]
+path = sbase
+url = git://git.suckless.org/sbase
