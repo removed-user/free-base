@@ -5,3 +5,7 @@ url = git://git.suckless.org/ubase
 [submodule "sbase"]
 path = sbase
 url = git://git.suckless.org/sbase
+
+[submodule "coreutils"]
+path = coreutils
+url = git://git.git.savannah.gnu.org/coreutils.git
