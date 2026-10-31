@@ -1,0 +1,5 @@
+| Original Package | Purpose & Focus | Core Tools Included | Why it fits your philosophy |
+| :--- | :--- | :--- | :--- |
+| **`fileutils`** | Interacting with disk storage, paths, and file metadata. | `cp`, `mv`, `rm`, `ls`, `mkdir`, `rmdir`, `chmod`, `chown`, `ln`, `df`, `du`, `touch`, `dd`, `install` | These tools map directly to filesystem manipulation system calls (`open`, `read`, `write`, `stat`). |
+| **`textutils`** | Pure stream processing and data transformation. | `cat`, `tac`, `sort`, `uniq`, `cut`, `paste`, `head`, `tail`, `join`, `split`, `wc`, `tr`, `md5sum`, `od` | Total computation logic. These tools are the most portable because they rely almost entirely on standard C string and memory functions, staying out of the kernel's way. |
+| **`sh-utils`** | Providing scripts and terminal sessions with environment data and control primitives. | `echo`, `env`, `printenv`, `uname`, `whoami`, `id`, `basename`, `dirname`, `date`, `sleep`, `hostname`, `true`, `false`, `yes`, `expr`, `tee` | Basic blocks of execution. They exist to evaluate logic, read shell variables, or check user identities (`id`, `whoami`) without bloated auditing. |
