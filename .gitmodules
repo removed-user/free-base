@@ -9,3 +9,8 @@ url = git://git.suckless.org/sbase
 [submodule "coreutils"]
 path = coreutils
 url = git://git.git.savannah.gnu.org/coreutils.git
+
+
+[submodule "loginutils"]
+   path = loginutils
+   url = https://github.com/mirror/busybox.git
